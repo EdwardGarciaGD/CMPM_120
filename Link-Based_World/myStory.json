@@ -1,0 +1,305 @@
+{
+    "Title": "The Final Quest",
+    "Credits": "Story created by Edward Garcia",
+    "InitialLocation": "Outside Castle",
+    "Locations": 
+    {
+        "Outside Castle": 
+        {
+            "Body": "After a long day of many quests and exploration, you finally land on your final destination, the castle. You see two guards on top of the outer walls staring at you.",
+            "Choices": 
+            [
+                {
+                    "Text": "Speak to castle Guards",
+                    "Target": "Front Yard"
+                }
+            ]
+        },
+        "Front Yard": 
+        {
+            "Body": "You tell the guards that you are here for quest of the treasure hunt that the lord of this castle has given. They nod at you and open the gates. You walk into a front yard with a fountain at the center. You also see the front castle doors past the fountain.",
+            "Choices": [
+                {
+                    "Text": "Walk to fountain",
+                    "Target": "Fountain"
+                },
+                {
+                    "Text": "Walk to front castle doors",
+                    "Target": "Castle Doors"
+                }
+            ]
+        },
+        "Fountain": {
+            "Body": "The fountain water looks clear and fresh.",
+            "Choices": [
+                {
+                    "Text": "Fill Pouch With Water",
+                    "Target": "Pouch Filled"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Pouch Not Filled"
+                }
+            ]
+        },
+        "Pouch Filled": {
+            "Body": "You fill your pouch with the fountain water and prepare yourself to the front castle doors",
+            "Choices": [
+                {
+                    "Text": "Walk to Castle Doors",
+                    "Target": "Castle Doors"
+                }
+            ]
+        },
+        "Pouch Not Filled": {
+            "Body": "You return to the front yard where you see the fountain at the center and the front castle doors past it.",
+            "Choices": 
+            [
+                {
+                    "Text": "Walk to fountain",
+                    "Target": "Fountain"
+                },
+                {
+                    "Text": "Walk to castle doors",
+                    "Target": "Castle Doors"
+                }
+            ]
+        },
+        "Castle Doors": 
+        {
+            "Body": "In front of you are two sturdy wooden unlocked front doors to the inner castle.",
+            "Choices": 
+            [
+                {
+                    "Text": "Push Doors",
+                    "Target": "Great Chamber"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Pouch Not Filled"
+                }
+            ]
+        },
+        "Great Chamber": 
+        {
+            "Body": "A darklit chamber is in front of you. You notice the grand stairs in front of you to the upper floor and a door right beside them.",
+            "Choices": 
+            [
+                {
+                    "Text": "Walk Upstairs",
+                    "Target": "Upper Great Chamber"
+                },
+                {
+                    "Text": "Enter Side Door",
+                    "Target": "Kitchen"
+                }
+            ]
+        },
+        "Upper Great Chamber": 
+        {
+            "Body": "Three doors lay upon you. Which one will lead to the lord of this castle?",
+            "Choices": 
+            [
+                {
+                    "Text": "Door One",
+                    "Target": "Outside View"
+                },
+                {
+                    "Text": "Door Two",
+                    "Target": "Hallway Door"
+                },
+                {
+                    "Text": "Door Three",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go Downstairs",
+                    "Target": "Great Chamber"
+                }
+            ]
+        },
+        "Kitchen": 
+        {
+            "Body": "To your surprise, a beast is in front of you growling and ready to pounce! What will you do?",
+            "Choices": 
+            [
+                {
+                    "Text": "Raise Sword",
+                    "Target": "Beast Interaction"
+                },
+                {
+                    "Text": "Raise Shield",
+                    "Target": "Beast Interaction"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Great Chamber"
+                }
+            ]
+        },
+        "Beast Interaction": 
+        {
+            "Body": "The beast stops growling and thinks that you are playing around. You play along and throw your weapon to play fetch. The beast returns with it, along with a key. You pet the beast and return to your quest!",
+            "Choices": 
+            [
+                {
+                    "Text": "Go Back",
+                    "Target": "Great Chamber"
+                }
+            ]
+        },
+        "Outside View": 
+        {
+            "Body": "You enter a balcony view where you can see the nightfall of the sky.",
+            "Choices": 
+            [
+                {
+                    "Text": "Take A Breath",
+                    "Target": "Relaxing Interaction"
+                },
+                {
+                    "Text": "Return",
+                    "Target": "Upper Great Chamber"
+                }
+            ]
+        },
+        "Relaxing Interaction": 
+        {
+            "Body": "You close your eyes and take a deep long breath in. You fill your lungs with the cold night air and a break from your long adventure. After a moment, you open your eyes and fill yourself with determination.",
+            "Choices": 
+            [
+                {
+                    "Text": "Return",
+                    "Target": "Upper Great Chamber"
+                }
+            ]
+        },
+        "Bedroom": 
+        {
+            "Body": "You enter a bedroom with a woman sitting down, knitting by a cozy fireplace.",
+            "Choices": 
+            [
+                {
+                    "Text": "Ask For Directions",
+                    "Target": "Woman Interaction"
+                }
+            ]
+        },
+        "Woman Interaction": 
+        {
+            "Body": "Before you said anything, the woman tells you that you are in the wrong room. She also tells you send a message to lord of the castle that dinner is ready.",
+            "Choices": 
+            [
+                {
+                    "Text": "Agree And Return To Your Quest",
+                    "Target": "Upper Great Chamber"
+                },
+                {
+                    "Text": "Give Water",
+                    "Target": "Special Woman Interaction"
+                }
+            ]
+        },
+        "Special Woman Interaction": 
+        {
+            "Body": "You give the woman your pouch filled with water. She smiles softly and thanks you. She also provides a hint to check the door downstairs for an item you are looking for.",
+            "Choices": 
+            [
+                {
+                    "Text": "Nod and Return To Your Quest",
+                    "Target": "Upper Great Chamber"
+                }
+            ]
+        },
+        "Hallway Door": 
+        {
+            "Body": "You find a door that appears to be locked.",
+            "Choices": 
+            [
+                {
+                    "Text": "Use Key",
+                    "Target": "Hallway"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Upper Great Chamber"
+                }
+            ]
+        },
+        "Hallway": 
+        {
+            "Body": "You unlock the door and enter a long hallway with two doors at the end of it.",
+            "Choices": 
+            [
+                {
+                    "Text": "Walk And Enter Door One",
+                    "Target": "Watermelon Room"
+                },
+                {
+                    "Text": "Walk And Enter Door Two",
+                    "Target": "Throne Room"
+                }
+            ]
+        },
+        "Watermelon Room": 
+        {
+            "Body": "You open the door and see a small table. On top of it is half a juicy watermelon. The strong red color of it immediately makes you grab it.",
+            "Choices": 
+            [
+                {
+                    "Text": "Go Back",
+                    "Target": "Hallway"
+                }
+            ]
+        },
+        "Throne Room": 
+        {
+            "Body": "You enter a room that only shines by the moonlight that is coming from the windows. You see a tall broad looking person sitting on the throne. The lord of the castle has finally been found and you prepare the final fight of your adventure. The lord tells you how much time has passed, waiting for your arrival.",
+            "Choices": 
+            [
+                {
+                    "Text": "Eat Watermelon",
+                    "Target": "Lord Interaction"
+                },
+                {
+                    "Text": "Start Fight",
+                    "Target": "Quick Ending"
+                }
+            ]
+        },
+        "Lord Interaction": 
+        {
+            "Body": "You take out your watermelon and the lord notices. The lord asks if it's alright to have a bite of it as well.",
+            "Choices": 
+            [
+                {
+                    "Text": "Share Watermelon",
+                    "Target": "Actual Ending"
+                },
+                {
+                    "Text": "Be Selfish",
+                    "Target": "Quick Ending"
+                }
+            ]
+        },
+        "Quick Ending": 
+        {
+            "Body": "In less than a second, the lord strikes you and you fall straight to the floor. The End"
+        },
+        "Actual Ending": 
+        {
+            "Body": "You give the lord your watermelon is gratefil of it. The lord eats the watermelon quickly and brings out a sigh in relief. The lord smiles at you and says that you deserve the treasure and points towards a door behind the throne.",
+            "Choices": 
+            [
+                {
+                    "Text": "Grab Your Prize!",
+                    "Target": "Treasure Room"
+                }
+            ]
+        },
+        "Treasure Room": 
+        {
+            "Body": "You enter the room and see a large treasure chest. You open the chest and acquire a long greatsword! You try to lift it but appears to be very heavy. The lord enters the room and laughs at your struggle. The woman from the bedroom enters as well and begins to tell the two of you that dinner has been ready for quite a while. You give up on lifting the sword but remeber that one day that sword would be yours once you grow stronger and become the lord of this castle. The End"
+        }
+    }
+}
