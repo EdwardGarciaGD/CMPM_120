@@ -67,7 +67,7 @@
         },
         "Castle Doors": 
         {
-            "Body": "In front of you are two sturdy wooden unlocked front doors to the inner castle.",
+            "Body": "In front of you are two sturdy, wooden front doors that lead to the inner castle.",
             "Choices": 
             [
                 {
@@ -187,7 +187,7 @@
         },
         "Woman Interaction": 
         {
-            "Body": "Before you said anything, the woman tells you that you are in the wrong room. She also tells you send a message to lord of the castle that dinner is ready.",
+            "Body": "Before you said anything, the woman tells you that you are in the wrong room. She also tells you to send a message to lord of the castle that dinner is ready.",
             "Choices": 
             [
                 {
@@ -288,7 +288,7 @@
         },
         "Actual Ending": 
         {
-            "Body": "You give the lord your watermelon is gratefil of it. The lord eats the watermelon quickly and brings out a sigh in relief. The lord smiles at you and says that you deserve the treasure and points towards a door behind the throne.",
+            "Body": "You give the lord your watermelon who is grateful for it. The lord eats the watermelon quickly and brings out a sigh in relief. The lord smiles at you and says that you deserve the treasure and points towards a door behind the throne.",
             "Choices": 
             [
                 {
