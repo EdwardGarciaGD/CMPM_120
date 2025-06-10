@@ -187,7 +187,7 @@ class LevelTwo extends Phaser.Scene
         this.cameras.main.setDeadzone(50, 180);
         this.cameras.main.setZoom(this.SCALE+1.5);
 
-        document.getElementById('description').innerHTML = '<h2>Level One: Training Camp'
+        document.getElementById('description').innerHTML = '<h2>Level Two: Onward!'
     }
 
     update() 
